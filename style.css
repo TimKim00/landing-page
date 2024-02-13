@@ -1,0 +1,144 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;; 
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-weight: lighter;
+    margin: 8px;
+}
+
+.header, .footer {
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    height: 48px;
+    justify-content: space-between;
+    padding: 16px 144px;
+}
+
+.footer {
+    justify-content: center;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.intro {
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    padding: 128px 144px;
+    gap: 120px
+}
+
+.intro-header {
+    color: #F9FAF8;
+    font-size:48px;
+    font-weight: bolder;
+}
+
+.left-intro {
+    max-width: 40%;
+}
+
+.right-intro {
+    background-color: gray;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #3882F6;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: bold;
+    border: 0;
+    border-radius: 8px;
+    padding: 8px 32px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #1F2937;
+    padding: 48px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    
+}
+
+.info-box-set {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 60px 230px;
+    width: 150px;
+    text-align: center;
+}
+
+#info-img {
+    border-radius: 12px;
+    border: 4px solid #3882F6 ;
+    width: 150px;
+    height: 150px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    font-style:italic;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+    padding: 128px 312px;
+}
+
+.quote-author {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+    justify-content: end;
+    display: flex;
+}
+
+.sign-up {
+    background-color:#3882F6;
+    border-radius: 10px;
+    margin: 100px 200px;
+    padding: 48px 100px;
+    color:#F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign-details {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+#sign-up {
+    border: 2px solid #F9FAF8;
+}
+
+
+
